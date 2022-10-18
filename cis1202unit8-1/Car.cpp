@@ -3,7 +3,7 @@
 
 void Car::setDoors()
 {
-	cout << "How many doors does the car have?";
+	cout << "How many doors does the car have?\n";
 	cin >> doors;
 	return;
 }

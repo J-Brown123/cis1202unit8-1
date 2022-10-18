@@ -3,7 +3,7 @@
 
 void Truck::setTow()
 {
-	cout << "What is the truck's towing capacity?";
+	cout << "What is the truck's towing capacity?\n";
 	cin >> tow;
 	return;
 }

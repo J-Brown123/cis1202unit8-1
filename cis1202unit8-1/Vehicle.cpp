@@ -9,14 +9,14 @@ void Vehicle::displayInfo()
 
 void Vehicle::setYear()
 {
-	cout << "What is the year of the vehicle?";
+	cout << "What is the year of the vehicle?\n";
 	cin >> year;
 	return;
 }
 
 void Vehicle::setManufacturer()
 {
-	cout << "What is the manufacturer of the vehicle?";
+	cout << "What is the manufacturer of the vehicle?\n";
 	getline(cin, manufacturer);
 	return;
 }
