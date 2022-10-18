@@ -9,14 +9,11 @@ private:
 	int tow;
 public:
 	Truck()
-	{
-		tow = 0;
-	}
+	{tow = 0;}
 	void setTow();
 	int getTow()
-	{
-		return tow;
-	}
+	{return tow;}
+	void displayInfo();
 };
 
 #endif

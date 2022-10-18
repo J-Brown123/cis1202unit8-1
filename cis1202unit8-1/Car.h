@@ -13,6 +13,7 @@ public:
 	void setDoors();
 	int getDoors()
 	{return doors;}
+	void displayInfo();
 };
 
 #endif

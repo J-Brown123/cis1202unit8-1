@@ -7,3 +7,10 @@ void Car::setDoors()
 	cin >> doors;
 	return;
 }
+
+void Car::displayInfo()
+{
+	Vehicle::displayInfo();
+	cout << "This car has " << doors << " doors.\n";
+	return;
+}

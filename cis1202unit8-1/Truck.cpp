@@ -7,3 +7,10 @@ void Truck::setTow()
 	cin >> tow;
 	return;
 }
+
+void Truck::displayInfo()
+{
+	Vehicle::displayInfo();
+	cout << "The truck's towing capacity is " << tow << " pounds.\n";
+	return;
+}
